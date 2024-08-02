@@ -1,0 +1,142 @@
+       /*we are going to style our body tag first */
+       body {
+           background-color: rgba(18 18 62);
+           /*we have given background colour to our webpage*/
+           color: white;
+           font-family: 'Poppins', sans-serif;
+       }
+
+       * {
+           /*Giving padding and margin to our body*/
+           margin: 0;
+           padding: 0;
+       }
+
+       /*Now we are styling our navigationbar */
+       nav {
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+           height: 80px;
+           /*size of the navigation*/
+           background-color: rgb(18, 18, 62);
+           /*we have given background color to our navigation bar*/
+           position: fixed;
+           /* Set the navbar to fixed position */
+           top: 0;
+           /* Position the navbar at the top of the page */
+           width: 100%;
+           /* Full width */
+       }
+
+       nav ul {
+           /*we are styling our nav unorderd list*/
+           display: flex;
+           justify-content: center;
+       }
+
+       nav ul li {
+           /*styling lists */
+           list-style: none;
+           /*to remove bullets point from the lists*/
+           margin: 0 23px;
+           /*give spaces between the lsit or add margin */
+       }
+
+       nav ul li a {
+           /*styling lists for anchor tag */
+           text-decoration: none;
+           color: white;
+       }
+
+       nav ul li a:hover {
+           color: rgb(153, 153, 226);
+           /*color change on hover*/
+           font-size: 1.02rem;
+           /*Size change on hover*/
+       }
+
+       .container {
+           width: 80%;
+           max-width: 1000px;
+           margin: 50px auto;
+           padding-top: 5px;
+           padding: 25px 50px;
+           padding-bottom: 200px;
+           background-color: rgba(0 0 33);
+           box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+           border-radius: 8px;
+           
+       }
+
+
+       p {
+           line-height: 1.6;
+           margin: 15px 0;
+       }
+
+       .profile-pic {
+        float: right;
+           margin: 0 auto 20px;
+           border-radius: 50%;
+           width: 150px;
+           height: 150px;
+           object-fit: cover;
+       }
+
+
+.SecondSection h1 {
+           font-size: 1.9rem;
+       }
+
+       .SecondSection .box {
+           background: white;
+           width: 75vw;
+           height: 2px;
+           margin: 56px 0;
+           display: flex;
+       }
+
+
+       .SecondSection .vertical {
+           height: 93px;
+           width: 1px;
+           background-color: white;
+           margin: 0 120px;
+       }
+
+       .Image-top {
+           width: 23px;
+           position: relative;
+           top: -32px;
+           left: -9px;
+       }
+
+       .vertical-title {
+           position: relative;
+           top: 75px;
+           width: 150px;
+           font-size: 14px;
+       }
+
+       .vertical-desc {
+           position: relative;
+           top: 86px;
+           color: grey;
+           width: 150px;
+           font-size: 9px;
+       }
+
+       footer {
+        text-align: center;
+        padding: 1rem 0;
+        background-color: #0e0e1a;
+        color: #fff;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+    
+    
+    
+    

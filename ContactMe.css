@@ -1,0 +1,152 @@
+body {
+    background-color: rgba(0 0 33);
+    /*we have given background colour to our webpage*/
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+    background-color: rgb(18, 18, 62);
+    color: #fff;
+    padding: 0rem 0;
+    text-align: center;
+}
+
+* {
+    /*Giving padding and margin to our body*/
+    margin: 0;
+    padding: 0;
+}
+
+/*Now we are styling our navigationbar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    /*size of the navigation*/
+    background-color: rgb(18, 18, 62);
+    /*we have given background color to our navigation bar*/
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+}
+
+nav ul {
+    /*we are styling our nav unorderd list*/
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    /*styling lists */
+    list-style: none;
+    /*to remove bullets point from the lists*/
+    margin: 0 23px;
+    /*give spaces between the lsit or add margin */
+}
+
+nav ul li a {
+    /*styling lists for anchor tag */
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    /*color change on hover*/
+    font-size: 1.02rem;
+    /*Size change on hover*/
+}
+
+
+
+
+.contact-form {
+    background: #fff;
+    margin: 2rem auto;
+    padding: 3rem;
+    max-width: 600px;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .header{
+    color: rgb(0, 0, 33);
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.contact-form .form-group {
+    margin-bottom: 1rem;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form input{
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 0.7rem;
+    background: rgb(0, 0, 33);
+     color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.contact-form button:hover {
+    background: #333;
+   
+}
+
+.contact-details {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 600px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-details h2 {
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.contact-details p {
+    margin: 0.5rem 0;
+    color: black;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #0e0e1a;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="ContactMe.css">
+</head>
+<body>
+
+    <header>
+        <br>
+        <nav> <!--now we have created an navigation bar for our webpage-->
+            <!--we have create two div for our header left and right-->
+            <div class="left">  <h1>Contact Me</h1></div>
+            <div class="right">
+                <!--We have created a unordered list in our right div tag -->
+                <ul>
+                    <li><a href="index.html">Home </a> </li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="MyProjects.html">My Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+       
+<br>
+
+<section class="contact-form">
+    <div class="header"><h1>Contact Form</h1></div>
+    <div class="heading"><b>Feel free to reach out for any web development or ethical hacking inquiries..</b></div>
+<br>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<section class="contact-details">
+    <h2>Other Ways to Reach Me</h2>
+    <p>Phone: <a href="tel:+1234567890">+1234567890</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/deshant-sharma" target="_blank">linkedin.com/in/deshant-sharma</a></p>
+    <p>Email: <a href="deshantsharma3553@gmail.com">deshantsharma3553@gmail.com</a></p>
+    
+</section>
+<br>
+
+<footer>
+    <p>&copy; 2024 Deshant Sharma. All rights reserved.</p>
+</footer>
+     
+</body>
+</html>
