@@ -1,0 +1,244 @@
+/*we are going to style our body tag first */
+body {
+    background-color: rgba(0, 0, 33);
+    /*we have given background colour to our webpage*/
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    /*Giving padding and margin to our body*/
+    margin: 0;
+    padding: 0;
+}
+
+/*Now we are styling our navigationbar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    /*size of the navigation*/
+    background-color: rgb(18, 18, 62);
+    /*we have given background color to our navigation bar*/
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+}
+
+nav ul {
+    /*we are styling our nav unorderd list*/
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    /*styling lists */
+    list-style: none;
+    /*to remove bullets point from the lists*/
+    margin: 0 23px;
+    /*give spaces between the lsit or add margin */
+}
+
+nav ul li a {
+    /*styling lists for anchor tag */
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    /*color change on hover*/
+    font-size: 1.02rem;
+    /*Size change on hover*/
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1px;
+    margin: 44px 84px;
+}
+
+/*left div*/
+.left {
+    font-size: 1.5rem;
+    /*font Size of deshants portfolio */
+}
+
+.FirstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0;
+}
+
+.FirstSection div> {
+    /*We Use > this to default the propersties for one section only*/
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 3rem;
+
+}
+
+.leftsection .buttons{
+    padding: 50px 0;
+}
+
+.leftsection .btn {
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+ 
+.RightSection img {
+    width: 80%;
+    margin: 50px 0;
+
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+.text-gray {
+    color: gray;
+}
+
+
+.profile {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #fff;
+}
+
+.profile-container {
+    display: inline-block;
+    text-align: center;
+    background: rgb(14, 14, 49);
+    border: 1px solid #ddd;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 5px solid #007acc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+}
+
+.profile h1 {
+    margin: 1rem 0 0.5rem;
+    font-size: 2rem;
+    color: #007acc;
+}
+
+.profile p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+footer {
+    background-color: #0e0e1a;
+
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 223px;
+
+}
+
+footer .Footer-Rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-nav ul li {
+    margin: 0;
+}
+
+.footer-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.footer-nav ul li a:hover {
+    color: rgb(27, 27, 188);
+}
+
+
+
+
+
+
+
+
+
+
+
+.social-media {
+    margin-top: 1rem;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.social-icon img:hover {
+    transform: scale(1.2);
+}
+
+
