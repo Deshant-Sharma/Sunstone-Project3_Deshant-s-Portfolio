@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- I have Given An Tittle For MY Portfolio Website-->
+     <title>Deshant-Developer Portfolio</title>
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <!--We Have added two google fonts in our webpage-->
+     <!--1font= poppins bold 700-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link
+         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+         rel="stylesheet">
+     <!--2nd Font Regular 400 poppins-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link
+         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+         rel="stylesheet">
+</head>
+<body>
+    <!-- We have Created An Header for our wenpage which is the top of the page-->
+    <header>
+        <nav> <!--now we have created an navigation bar for our webpage-->
+            <!--we have create two div for our header left and right-->
+            <div class="left"> Deshant's Portfolio </div>
+            <div class="right">
+                <!--We have created a unordered list in our right div tag -->
+                <ul>
+                    <li><a href="/">Home </a> </li>
+                    <li><a href="About.html">About</a> </li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="MyProjects.html">My Projects</a></li>
+                    <li><a href="ContactMe.html">Contact Me </a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <!--Now We have Started to write our main content in our main section which we have created -->
+    <main>
+        <!--We have distribute our class with sections in html-->
+        <section class="FirstSection">
+            <div class="leftsection"> Hi, My name is <span class="purple">Deshant Sharma </span>
+                <div> and I am a Passionate </div>
+                <div>Web Developer</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <a href="https://github.com/Deshant-Sharma" class="btn">Visit GitHub</a>
+                </div>
+            </div>
+            <div class="profile-container">
+                <img src="Assets/DSP.png" alt="Deshant Sharma" class="profile-pic">
+                <h1>Deshant Sharma</h1>
+                <p>Web Developer & Ethical Hacker</p>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="footer">
+                <div class="footer-first">
+                    Deshant Developer Portfolio
+                </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-third">
+                    <ul>
+                        <a href="https://www.linkedin.com/in/deshant-sharma/" target="_blank" class="social-icon"><img src="Assets/linkedin.png" alt="Linkedin"></a>
+                <a href="https://www.instagram.com/deshant.sharma_" target="_blank" class="social-icon"><img src="Assets/Instagram.png" alt="Instagram"></a>
+                <a href="mailto:deshantsharma3553@gmail.com" class="social-icon"><img src="Assets/gmail.jpeg" alt="Gmail"></a>
+            </div>
+                    </ul>
+                </div>
+               
+            </div>
+            <div class="Footer-Rights">
+                Copyright &copy; deshantportfolios.com | All Right Reserved
+            </div>
+        </footer>
+    
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+        <!-- Setup and start animation! -->
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Web Developer', 'Web Designer', '&amp; a Ethical Hacker.'],
+                typeSpeed: 50,
+            });
+        </script>
+        
+</body>
+</html>
+
